@@ -4,6 +4,10 @@ import 'package:flutter_demo/navigation_bar/pages/home_screen.dart';
 import 'package:flutter_demo/navigation_bar/pages/email_screen.dart';
 import 'package:flutter_demo/navigation_bar/pages/page_screen.dart';
 
+/// 基础的 navigation bar
+/// 使用 PageView设置 navigation_bar 切换时保留页面状态
+/// 子组件内使用 AutomaticKeepAliveClientMixin 进行页面数据的保持
+
 class BottomNavigationBarScreen extends StatefulWidget {
   BottomNavigationBarScreen({Key key}) : super(key: key);
 

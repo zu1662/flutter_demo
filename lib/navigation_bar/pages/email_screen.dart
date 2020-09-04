@@ -34,7 +34,8 @@ class _EmailScreenState extends State<EmailScreen> with AutomaticKeepAliveClient
       ),
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.add),
-        tooltip: "Increment",
+        heroTag: "Email",
+        tooltip: "IncrementEmail",
         onPressed: _handleIncrement,
       ),
     );

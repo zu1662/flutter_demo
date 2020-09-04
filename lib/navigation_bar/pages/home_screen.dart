@@ -34,7 +34,8 @@ class _HomeScreenState extends State<HomeScreen> with AutomaticKeepAliveClientMi
       ),
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.add),
-        tooltip: "Increment",
+        heroTag: "Home",
+        tooltip: "IncrementHome",
         onPressed: _handleIncrement,
       ),
     );

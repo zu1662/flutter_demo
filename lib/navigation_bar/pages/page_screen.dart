@@ -34,7 +34,8 @@ class _PageScreenState extends State<PageScreen> with AutomaticKeepAliveClientMi
       ),
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.add),
-        tooltip: "Increment",
+        heroTag: "Page",
+        tooltip: "IncrementPage",
         onPressed: _handleIncrement,
       ),
     );

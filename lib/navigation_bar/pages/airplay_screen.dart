@@ -34,7 +34,8 @@ class _AirplayScreenState extends State<AirplayScreen> with AutomaticKeepAliveCl
       ),
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.add),
-        tooltip: "Increment",
+        heroTag: "Airport",
+        tooltip: "IncrementAirport",
         onPressed: _handleIncrement,
       ),
     );

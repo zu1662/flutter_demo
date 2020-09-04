@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 // import 'package:flutter_demo/login_pagea_with_animate/index.dart';
 // import 'package:flutter_demo/hero_page/index.dart';
-import 'package:flutter_demo/navigation_bar/index.dart';
+// import 'package:flutter_demo/navigation_bar/index.dart';
+import 'package:flutter_demo/route_transition/index.dart';
 
 void main() {
   runApp(MyApp());
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: NavigationBarIndex(),
+      home: RouteTransitionIndex(),
     );
   }
 }
